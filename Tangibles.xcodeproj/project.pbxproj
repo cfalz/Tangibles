@@ -14,6 +14,9 @@
 		26A230B22851030600B4EE54 /* TangiblesTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26A230B12851030600B4EE54 /* TangiblesTests.swift */; };
 		26A230BC2851030600B4EE54 /* TangiblesUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26A230BB2851030600B4EE54 /* TangiblesUITests.swift */; };
 		26A230BE2851030600B4EE54 /* TangiblesUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26A230BD2851030600B4EE54 /* TangiblesUITestsLaunchTests.swift */; };
+		26A230CB285103F500B4EE54 /* Home.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26A230CA285103F500B4EE54 /* Home.swift */; };
+		26A230CD28511B4300B4EE54 /* Account.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26A230CC28511B4300B4EE54 /* Account.swift */; };
+		26A230CF2858DDC200B4EE54 /* Add.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26A230CE2858DDC100B4EE54 /* Add.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -44,6 +47,9 @@
 		26A230B72851030600B4EE54 /* TangiblesUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TangiblesUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		26A230BB2851030600B4EE54 /* TangiblesUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TangiblesUITests.swift; sourceTree = "<group>"; };
 		26A230BD2851030600B4EE54 /* TangiblesUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TangiblesUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		26A230CA285103F500B4EE54 /* Home.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Home.swift; sourceTree = "<group>"; };
+		26A230CC28511B4300B4EE54 /* Account.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Account.swift; sourceTree = "<group>"; };
+		26A230CE2858DDC100B4EE54 /* Add.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Add.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -98,6 +104,9 @@
 				26A230A22851030300B4EE54 /* ContentView.swift */,
 				26A230A42851030500B4EE54 /* Assets.xcassets */,
 				26A230A62851030500B4EE54 /* Preview Content */,
+				26A230CA285103F500B4EE54 /* Home.swift */,
+				26A230CC28511B4300B4EE54 /* Account.swift */,
+				26A230CE2858DDC100B4EE54 /* Add.swift */,
 			);
 			path = Tangibles;
 			sourceTree = "<group>";
@@ -258,6 +267,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				26A230A32851030300B4EE54 /* ContentView.swift in Sources */,
+				26A230CD28511B4300B4EE54 /* Account.swift in Sources */,
+				26A230CB285103F500B4EE54 /* Home.swift in Sources */,
+				26A230CF2858DDC200B4EE54 /* Add.swift in Sources */,
 				26A230A12851030300B4EE54 /* TangiblesApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
