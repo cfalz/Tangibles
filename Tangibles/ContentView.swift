@@ -8,21 +8,16 @@
 import SwiftUI
 
 struct ContentView: View {
+    @StateObject var dataModel = DataModel()
+    @State private var inputImage: UIImage?
     var body: some View {
         TabView {
             HomeView()
-                .tabItem {
-                    Label("Home", systemImage: "house")
-                }
+                .tabItem { Label("Home", systemImage: "house") }
+            PhotoPicker(image: $inputImage)
+                .tabItem{ Label("Add", systemImage: "plus") }
             AccountView()
-                .tabItem {
-                    Label("Account", systemImage: "person")
-                }
-            AddView()
-                .tabItem{
-                    Label("Add", systemImage: "plus")
-                }
-            
+                .tabItem { Label("Account", systemImage: "person") }
         }
     }
 }

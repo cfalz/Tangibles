@@ -9,9 +9,13 @@ import SwiftUI
 
 @main
 struct TangiblesApp: App {
+    @StateObject var dataModel = DataModel()
+
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            NavigationView { ContentView() }
+            .environmentObject(dataModel)
+            .navigationViewStyle(.stack)
         }
     }
 }
